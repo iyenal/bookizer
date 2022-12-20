@@ -5,8 +5,8 @@ from PIL import Image, ImageEnhance
 threshold = 191  # range from 0 to 255
 
 kioskPath = "./MyBookScreensFolder/"
-files = [f for f in os.listdir(pathIn) if isfile(join(pathIn, f))]
-files.sort(key=lambda f: os.path.getmtime(join(pathIn, f)))
+files = [f for f in os.listdir(kioskPath) if isfile(join(kioskPath, f))]
+files.sort(key=lambda f: os.path.getmtime(join(kioskPath, f)))
 
 # page zone + upscale and enhancing
 images = [
