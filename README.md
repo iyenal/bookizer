@@ -17,4 +17,5 @@ This utility is quite basic and simple, leaving many possible improvements:
 - OCR detection of characters
 - Automatic detection of page zone
 - Integrated macro playing
-Please be welcome to contribute and add your contributions.
+
+Please be welcome to contribute.
